@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #a6228f;
     border-width: 3px;
 }
 
@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #a6228f;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #a6228f;
 }
 
 .bg-dark {
@@ -89,7 +89,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #f05f40;
+    color: #a6228f;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -107,12 +107,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #a6228f;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #a6228f!important;
     background-color: transparent;
 }
 
@@ -153,7 +153,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #a6228f;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -168,7 +168,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #a6228f;
     }
 }
 
@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/4_1920.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -243,20 +243,59 @@ header .header-content .header-content-inner p {
     margin-top: 0;
 }
 
-.service-box {
+.partners-box {
     margin: 50px auto 0;
     max-width: 400px;
 }
 
+.partners-box img {
+  height: 200px;
+  /*width: 150px;*/
+}
+
+.partners-box {
+  text-align: center;
+}
+
 @media(min-width:992px) {
-    .service-box {
+    .partners-box {
         margin: 20px auto 0;
     }
 }
 
-.service-box p {
+.partners-box p {
     margin-bottom: 0;
 }
+
+
+
+
+
+.funding-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+.funding-box img {
+  /*height: 150px;*/
+  width: 300px;
+}
+
+.funding-box {
+  text-align: center;
+}
+
+@media(min-width:992px) {
+    .funding-box {
+        margin: 20px auto 0;
+    }
+}
+
+.funding-box p {
+    margin-bottom: 0;
+}
+
+
 
 .portfolio-box {
     display: block;
@@ -323,7 +362,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #a6228f;
 }
 
 .no-gutter > [class*=col-] {
@@ -385,9 +424,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #a6228f;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #a6228f;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -428,12 +467,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #f05f40;
+    border-color: #a6228f;
+    background-color: #a6228f;
 }
 
 .btn-primary .badge {
-    color: #f05f40;
+    color: #a6228f;
     background-color: #fff;
 }
 
