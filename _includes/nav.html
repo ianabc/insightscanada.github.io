@@ -1,3 +1,4 @@
+<!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -8,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Insights Canada</a>
+            <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,7 +20,7 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a{% if location == '/success/'%}class="active"{% endif %} href="/success/">Success Stories</a>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{page.title }}</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#partners">Partners</a>
