@@ -1,6 +1,11 @@
-title: Insights Canada
+title: "Insights Canada"
+header-img: "img/map_clusters_hi_caption.jpg"
+email: "learn@insightscanada.com"
+url: "http://insightscanada.org/"
+
 include: ['_pages']
 permalink: /:title/
+
 relative_permalinks: false
 
 #gems: ['jekyll-less']

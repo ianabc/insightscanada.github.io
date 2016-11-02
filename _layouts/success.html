@@ -29,33 +29,6 @@ layout: default
     <!-- /.container-fluid -->
 </nav>
 
-<header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Insights Canada</h1>
-            <hr>
-            <p>The case studies below indicate some of the successfuly
-            collaborations coordinated by insights Canada. The collaborations
-            short term high-impact sprints as well as long term in depth
-            collaborations</p>
-
-            <div class="col-sm-4 col-sm-offset-4">
-                <div class="sidebar-nav">
-                    <div class="navbar navbar-default" role="navigation"> 
-                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                {% for post in site.categories.success %}
-                                <li><a class="page-scroll" href="#{{ post.shorttitle }}">{{ post.shorttitle }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
 {{ content }}
 <hr>
 <!-- Navigation -->

@@ -5,10 +5,10 @@ permalink: /success/
 ---
 
 {% for post in site.categories.success %}
-<section class="bg-primary" id="{{post.shorttitle}}">
+<section class="bg-primary {% cycle 'odd', 'even' %}" id="{{post.shorttitle}}">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-lg-8 col-lg-offset-2">
                 <p class="text-faded">{{ post.content }}</p>
             </div>
         </div>
@@ -16,7 +16,8 @@ permalink: /success/
 </section>
 {% endfor %}
 
-<aside class="bg-primary">
+{% assign nposts = site.categories.success | size | modulo:2 %}
+<aside class="bg-primary {% if nposts == 0 %}odd{% else %}even{% endif %}">
     <div class="container text-center">
         <div class="call-to-action">
             <a href="/#" class="btn btn-default btn-xl">Find Solutions.</a>

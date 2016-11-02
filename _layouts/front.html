@@ -4,7 +4,7 @@ layout: default
 
 {% include nav.html %}
 
-<header>
+<header style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="header-content">
         <div class="header-content-inner">
             <!-- <p>Mathematical sciences talent helping businesses find solutions.</p> -->
