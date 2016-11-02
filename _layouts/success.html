@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>Insights Canada</h1>
+            <hr>
+            {% for post in site.categories.success %}
+            <ul>
+                <li>
+                <a class="page-scroll" href="#{{ post.shorttitle }}">{{ post.title }}</a></li>
+            </ul>
+            {% endfor %}
+
+        </div>
+    </div>
+</header>
+
+{{ content }}
+<hr>

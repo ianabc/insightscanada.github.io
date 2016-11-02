@@ -5,13 +5,16 @@ category: success
 ---
 # A Financial Success Story
 
-Lorem ipsum dolor sit amet, sit consul prompta ei, te eum zril labitur
-dissentias. Eu illud labore praesent vis, nec brute legimus scriptorem ea. Ei
-mazim aliquip nam, inani mundi eos eu, saperet omittam mandamus ex ius. An
-regione alienum sadipscing mel.
+This is just an example markdown file, here is an inline image from an external
+source
+
+![good dog](http://i.imgur.com/wNk88VW.png){:class="img-responsive center-block"}
 
 Quem alii numquam pro ex. Ei malis dolor per, his te integre corrumpit, scaevola
 lucilius referrentur ius an. Prima harum vulputate ut ius. Decore audire ius ei.
+
+Here is another image, but this time it is local
+![laptop](/img/header.jpg){:class="img-responsive"}
 
 At prima expetenda mea. Utamur habemus senserit et nec, his veri democritum ne.
 Dicat audire postulant cu has, per ea persecuti adversarium. Has id harum quando

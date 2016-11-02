@@ -12,24 +12,27 @@
             <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
 
+        {% for post in site.categories.success %}
+        {% endfor %}
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                <a class="page-scroll" href="{% if page.url != "/" %}/{% endif %}#about">About</a>
                 </li>
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{page.title }}</a>
+                <a class="page-scroll" href="{% if page.url != "/" %}/{% endif %}#partners">Partners</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#partners">Partners</a>
+                <a class="page-scroll" href="{% if page.url != "/" %}/{% endif %}#funding">Funding</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#funding">Funding</a>
+                <a class="page-scroll" href="/success/">Success Stories</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                <a class="page-scroll" href="{% if page.url != "/" %}/{% endif %}#contact">Contact</a>
                 </li>
             </ul>
         </div>
